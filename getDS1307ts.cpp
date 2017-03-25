@@ -24,11 +24,11 @@ This function gets from the RTC a timestamp string like
 The function is fast, it takes only 1.132 ms (1.128 - 1.142).
 Using Process to get Linux time take more than 1 sec (see PollingTest
 example).
-For small footprint, this library can be used alone (undefine USE_I2C in 
-getDS1307ts.h) or, if the I2Ctunnel is used, define USE_I2C. 
+For small footprint, this library can be used alone (undefine USE_I2C, USE_I2CW in 
+getDS1307ts.h) or, if the I2Ctunnel is used, define USE_I2C or USE_I2CW. 
 
 HARDWARE
-  Require real time clock DS13007 
+  Requires real time clock DS13007 
 */
 
 #include <getDS1307ts.h>
