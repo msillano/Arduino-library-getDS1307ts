@@ -16,7 +16,7 @@
 # Methods and Functions (KEYWORD2)
 #######################################
 
-getDS1307ts         KEYWORD2
+getDS1307ts	KEYWORD2
 getDS1307timeStamp	KEYWORD2
 
 #######################################
